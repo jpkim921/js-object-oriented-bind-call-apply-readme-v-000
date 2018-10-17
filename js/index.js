@@ -9,4 +9,10 @@ class User {
     this.title = name;
     this.keywords = interests;
   }
+
+  matchInterests(event) {
+    return event.keywords.some(function(word) {
+      return this.interests.include(word);
+    })
+  }
 }
