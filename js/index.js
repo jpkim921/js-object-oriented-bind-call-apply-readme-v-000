@@ -17,3 +17,6 @@ class User {
     })
   }
 }
+
+let billy = new User('billy', ['music','art','movies']);
+let freeMusic = new Event('Free Music Show', ['music', 'free', 'outside'])
